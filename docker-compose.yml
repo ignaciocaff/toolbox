@@ -1,0 +1,24 @@
+version: "3.5"
+services:
+  api:
+    build:
+      context: api/
+      dockerfile: Dockerfile
+    container_name: api
+    environment:
+      - environment=dev
+    networks:
+      - network_toolbox
+  app:
+    build:
+      context: app/
+      dockerfile: Dockerfile
+    container_name: app
+    ports:
+      - "80:80"
+    networks:
+      - network_toolbox
+
+networks:
+  network_toolbox:
+    driver: bridge
