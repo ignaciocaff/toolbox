@@ -44,6 +44,7 @@ Se ha incluido un archivo Dockerfile en cada uno de los proyectos para facilitar
 docker-compose up --build -d
 ```
 Lo que levantara los contendores de la api y el front en los puertos 8080 y 80 respectivamente.
+Swagger estará disponible en /api-docs
 
 # Bonus
 
@@ -73,6 +74,7 @@ npm start
 ```
 
 La API estará disponible en http://localhost:8080
+Swagger estará disponible en http://localhost:8080/api-docs
 
 ## Pruebas
 

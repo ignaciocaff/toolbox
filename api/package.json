@@ -35,6 +35,8 @@
     "path": "^0.12.7",
     "sinon": "^15.2.0",
     "sinon-chai": "^3.7.0",
-    "standard": "*"
+    "standard": "*",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
   }
 }
