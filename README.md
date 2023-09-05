@@ -48,7 +48,7 @@ Swagger estará disponible en /api-docs
 
 # Bonus
 
-Se puede probar la aplicación funcionando en el siguiente link http://ec2-34-207-54-188.compute-1.amazonaws.com
+Se puede probar la aplicación funcionando en el siguiente link -
 
 Fue desplegada en una EC2 de aws.
 
